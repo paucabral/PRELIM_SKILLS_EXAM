@@ -1,0 +1,18 @@
+test_celsius2kelvin (test_temperature.TestTemperature) ... FAIL
+test_fahrenheit2kelvin (test_temperature.TestTemperature) ... ok
+test_mutipleInputs (test_temperature.TestTemperature) ... ok
+test_noInput (test_temperature.TestTemperature) ... ok
+test_rawkelvin (test_temperature.TestTemperature) ... ok
+
+======================================================================
+FAIL: test_celsius2kelvin (test_temperature.TestTemperature)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/paucabral/projects/PRELIM_SKILLS_EXAM/test_temperature.py", line 13, in test_celsius2kelvin
+    self.assertEqual(output, expected)
+AssertionError: 2293.15 != 293.15
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=1)
