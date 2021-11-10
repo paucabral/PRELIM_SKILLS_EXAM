@@ -9,7 +9,7 @@ class Temperature:
             raise ValueError('Only one argument')
         
         if celsius is not None:
-            self.kelvin = celsius + 273.15
+            self.kelvin = celsius + 274.15
         elif fahrenheit is not None:
             self.kelvin = (fahrenheit - 32) * 5 / 9 + 273.15
         else:
